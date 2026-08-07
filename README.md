@@ -1,33 +1,43 @@
 # Python for Mechanical Engineers
 
-A six-session, project-based workshop by **Dr. Nuha Aljuneidi** for undergraduate and graduate mechanical-engineering students.
+A six-session, project-based workshop by **Dr. Nuha Aljuneidi** for undergraduate and graduate mechanical engineering students.
 
-Students learn Python by solving real engineering problems in thermodynamics, heat transfer, fluid mechanics, experimental data analysis, machine learning, simulation, and optimization.
+Students learn Python by solving practical problems in thermodynamics, heat transfer, fluid mechanics, experimental data analysis, machine learning, simulation, and optimization. No local installation is required; the student notebooks run directly in Google Colab.
 
 ## Workshop roadmap
 
-| Session | Topic | Engineering deliverable |
-|---|---|---|
-| 1 | Python foundations for engineering | Reusable thermal-fluid calculation functions |
-| 2 | Arrays and visualization | Publication-ready engineering plots |
-| 3 | Thermodynamics and heat transfer | Interactive system-analysis tool |
-| 4 | Experimental data analysis | Cleaned dataset, regression, and uncertainty report |
-| 5 | Machine learning | Mechanical-system performance predictor |
-| 6 | Simulation and optimization | Design study and final engineering tool |
+| Session | Topic | Status | Start |
+|---|---|---|---|
+| 1 | Python Foundations for Engineering | ✅ Ready | [Open in Colab](https://colab.research.google.com/github/nuhaaljuneidi/python-for-mechanical-engineers/blob/main/session-01/session-01-student.ipynb) |
+| 2 | Arrays and Engineering Visualization | ✅ Ready | [Open in Colab](https://colab.research.google.com/github/nuhaaljuneidi/python-for-mechanical-engineers/blob/main/session-02/session-02-student.ipynb) |
+| 3 | Thermodynamics and Heat Transfer | 🛠️ Planned | Coming soon |
+| 4 | Experimental Data Analysis | 🛠️ Planned | Coming soon |
+| 5 | Machine Learning | 🛠️ Planned | Coming soon |
+| 6 | Simulation and Optimization | 🛠️ Planned | Coming soon |
 
-## Start here
+## Available materials
 
-- [Session 1 student notebook](session-01/session-01-student.ipynb)
-- [Session 1 instructor solutions](session-01/session-01-solutions.ipynb)
-- [Session 1 teaching guide](session-01/TEACHING-GUIDE.md)
+### Session 1 — Python Foundations for Engineering
 
-When this repository is published at `nuhaaljuneidi/python-for-mechanical-engineers`, the Colab link will be:
+Build reusable Python functions for thermal-fluid engineering calculations.
 
-`https://colab.research.google.com/github/nuhaaljuneidi/python-for-mechanical-engineers/blob/main/session-01/session-01-student.ipynb`
+- [Student notebook](session-01/session-01-student.ipynb)
+- [Instructor solutions](session-01/session-01-solutions.ipynb)
+- [Teaching guide](session-01/TEACHING-GUIDE.md)
+- [Open student notebook in Google Colab](https://colab.research.google.com/github/nuhaaljuneidi/python-for-mechanical-engineers/blob/main/session-01/session-01-student.ipynb)
+
+### Session 2 — Arrays and Engineering Visualization
+
+Use NumPy arrays for fin-temperature analysis and parameter sweeps, then produce clear, publication-ready engineering plots.
+
+- [Student notebook](session-02/session-02-student.ipynb)
+- [Instructor solutions](session-02/session-02-solutions.ipynb)
+- [Teaching guide](session-02/TEACHING-GUIDE.md)
+- [Open student notebook in Google Colab](https://colab.research.google.com/github/nuhaaljuneidi/python-for-mechanical-engineers/blob/main/session-02/session-02-student.ipynb)
 
 ## Software
 
-No installation is required. Open the notebooks in Google Colab. The workshop uses Python, NumPy, Matplotlib, pandas, SciPy, and scikit-learn.
+The workshop uses Google Colab, Python, NumPy, Matplotlib, pandas, SciPy, and scikit-learn.
 
 ## Repository structure
 
@@ -38,9 +48,17 @@ python-for-mechanical-engineers/
 │   ├── session-01-student.ipynb
 │   ├── session-01-solutions.ipynb
 │   └── TEACHING-GUIDE.md
-├── session-02/ ... session-06/
+├── session-02/
+│   ├── session-02-student.ipynb
+│   ├── session-02-solutions.ipynb
+│   └── TEACHING-GUIDE.md
+├── session-03/ ... session-06/
 └── resources/
 ```
+
+## For students
+
+Start with the student notebook for the current session. Run it in Google Colab, complete the exercises in order, and save a copy to your own Google Drive if you want to keep your work.
 
 ## License and attribution
 
